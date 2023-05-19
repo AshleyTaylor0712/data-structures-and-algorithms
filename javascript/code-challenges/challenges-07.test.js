@@ -25,7 +25,8 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  // Solution code here...
+  starWarsArr.sort((a, b) => (parseInt(b.height) - parseInt(a.height)));
+  return starWarsArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -35,7 +36,8 @@ Write a function named removeThree that takes an index and an array. The functio
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
-  // Solution code here...
+  arr.splice(idx, 3);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -45,7 +47,7 @@ Write a function named joinArray that takes an array and joins all of the elemen
 ------------------------------------------------------------------------------------------------ */
 
 const joinArray = (arr) => {
-  // Solution code here...
+  return arr.join(" ");
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,7 +65,9 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  // Solution code here...
+  for (let i = 0; i <= str.length; i++) {
+    result.push(str.slice(i));
+  }
   return result;
 };
 
@@ -76,7 +80,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  // Solution code here...
+  return arr.split('');
 };
 
 
@@ -123,7 +127,11 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.ingredients.forEach((ingred) => {
+    let withoutAmount = ingred.slice(ingred.indexOf(' ') + 1);
+    let withoutUnit = withoutAmount.slice(withoutAmount.indexOf(' ') + 1);
+    result.push(withoutUnit);
+  });
   return result;
 };
 
