@@ -36,15 +36,12 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 
 
 const firstLetters = (arr) => {
   // Solution code here...
-  const firstLetters = (arr) => {
-    const result = [];
-
-    for (let i = 0; i < arr.length; i++) {
-      const firstLetter = arr[i][0];
-      result.push(firstLetter);
-    }
-
-    return result;
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    const firstLetter = arr[i][0];
+    result.push(firstLetter);
+  }
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
