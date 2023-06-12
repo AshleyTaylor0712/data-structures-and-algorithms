@@ -4,7 +4,7 @@ Created a function that returns list elements in reverse order
 
 ## Whiteboard Process
 
-![Array Reverse](../../images/challenge1.png)
+![Array Reverse](../images/challenge1.png)
 
 ## Approach & Efficiency
 
