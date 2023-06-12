@@ -1,6 +1,6 @@
 # Challenge-1
 
-Created a function that returns list elements in reverse order
+Created a function that returns list elements in reverse order.
 
 ## Whiteboard Process
 
@@ -37,3 +37,11 @@ Created a function that returns list elements in reverse order
 ```reverse_list(list)```
 
 ```print(list)```
+
+## Contributers:
+
+Dan Quinn, Anthony Sinista, Jared Ciccarello, Andrew Carroll, Sarah Glass
+
+## Dependencies:
+
+Chat GPT, Replit
