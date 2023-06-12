@@ -10,7 +10,7 @@ Created a function that returns list elements in reverse order.
 
 - Created function to take list as input
 - Used a for loop to iterate through first half of list.
-- i variable taks on values from 0 to half the length of list
+- i variable takes on values from 0 to half the length of list
 - loop temporarily stores the value of the current element at index i to a variable called temp.
 - code replaces the value at index i with the value of the element at the corresponding position from the end of the list
 - This moves the element from the end of the list to the position previously held by the element at index i.
