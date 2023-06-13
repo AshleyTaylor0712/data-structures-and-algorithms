@@ -4,7 +4,7 @@ Created a function that takes a value and adds it into the middle of an array.
 
 ## Whiteboard Process
 
-![Insert Shift Array](/images/challenge2.png)
+![Insert Shift Array](/401-code-challenges/images/challenge2.png)
 
 ## Approach & Efficiency
 
